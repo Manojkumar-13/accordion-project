@@ -1,0 +1,58 @@
+*,*::after,*::before{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+html{
+  font-size: 16px;
+}
+body{
+  background-color: black;
+  color: white;
+}
+button{
+  font-size: 1.2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+button:hover{
+  font-size: 1.5rem;
+}
+.container{
+  margin: 0 auto;
+  height: 100vh;
+  max-width: 50rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  text-align: center;
+  font-size: 1.8rem;
+}
+.info{
+  margin-top: 2rem;
+}
+article{
+  background-color: #303030;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+}
+h4{
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+p{
+  max-width: 35rem;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  
+}

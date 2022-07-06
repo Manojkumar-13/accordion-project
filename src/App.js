@@ -1,8 +1,23 @@
-import React from 'react'
+import React,{useState} from 'react'
+
+import SingleQuestion from './components/SingleQuestion';
+
+import questions from './data'
 
 const App = () => {
   return (
-    <div>App</div>
+    <main>
+      <div className="container">
+        <h2>Frequently Asked Interview Question</h2>
+        <section className="info">
+          {
+            questions.map((question)=>{
+              return <SingleQuestion key = {question.id} {...question}/>
+            })
+          }
+        </section>
+      </div>
+    </main>
   )
 }
 
